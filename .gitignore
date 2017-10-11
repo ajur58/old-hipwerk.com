@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+*.swp
+*.swo
+
+node_modules
+
+dist
+coverage
+
+unit.tap
+checkstyle-result.xml
+reports
+
+# Webstorm settings folder
+.idea/

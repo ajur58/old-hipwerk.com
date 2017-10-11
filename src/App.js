@@ -2,7 +2,6 @@ import React from "react";
 import { Router, Link } from "react-static";
 import styled, { injectGlobal } from "styled-components";
 import Routes from "react-static-routes";
-//
 
 injectGlobal`
   body {

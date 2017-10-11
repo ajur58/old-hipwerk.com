@@ -1,8 +1,8 @@
-import React from 'react'
-import { Router, Link } from 'react-static'
-import styled, { injectGlobal } from 'styled-components'
+import React from "react";
+import { Router, Link } from "react-static";
+import styled, { injectGlobal } from "styled-components";
+import Routes from "react-static-routes";
 //
-import Routes from 'react-static-routes'
 
 injectGlobal`
   body {
@@ -13,7 +13,7 @@ injectGlobal`
     margin: 0;
     padding: 0;
   }
-`
+`;
 
 const AppStyles = styled.div`
   a {
@@ -36,7 +36,7 @@ const AppStyles = styled.div`
   .content {
     padding: 1rem;
   }
-`
+`;
 
 export default () => (
   <Router>
@@ -51,4 +51,4 @@ export default () => (
       </div>
     </AppStyles>
   </Router>
-)
+);

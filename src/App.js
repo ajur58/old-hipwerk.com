@@ -17,19 +17,23 @@ injectGlobal`
 const AppStyles = styled.div`
   a {
     text-decoration: none;
-    color: #108db8;
+    color: #fff;
     font-weight: bold;
   }
 
   nav {
     width: 100%;
-    background: #108db8;
+    background: mintcream;
 
     a {
-      color: white;
+      color: midnightblue;
       padding: 1rem;
       display: inline-block;
     }
+  }
+
+  h1 {
+    color: midnightblue;
   }
 
   .content {
